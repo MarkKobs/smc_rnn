@@ -13,12 +13,5 @@ Utilizing these traces, we can dipict the internal dynamics of a trained RNN.
 
 > [Sm0,Sm1,Sm2,...,Smn-1]
 
-m is the number of samples, n is the number of timesteps/iterations of RNN.
-
-## PCA Abstraction
-### N to K
-Due to the large size of n, We choose PCA to reduce the length of sequence from n to k
-### Partition
-
-
-
+*m* is the number of samples, *n* is the number of timesteps/iterations of RNN.
+ 
