@@ -17,9 +17,10 @@ The verification of RNN is important but the work of it is rare. We try to extra
 
 ## File & Folder Description
 - *data/* trajectory datasets
-- *rnn_model/* RNN model
-- *traces/* traces run by rnn
-- *abstract_model/* probabilistic abstract model
+- *train/* LSTM training process, get rnn model from data.
+- *rnn_model/* RNN model, stored by .h5 file
+- *traces/* traces run by rnn, stored by .txt file
+- *abstract_model/* probabilistic abstract model, getting from traces
 - *properties/* property definition
 - *tests/* tests
 
